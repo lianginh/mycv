@@ -3,6 +3,10 @@ body{
     margin: 0;
     padding: 0;
 }
+h1,h2,h3,p{
+    margin: 0;
+    padding: 0;
+}
 .logo{
     float: left;
     color: blue;
@@ -58,10 +62,60 @@ color: #e66;
 color: #ccc;
 }
 .banner{
-    height: 1080px;
+    height: 680px;
     background-image:url(../imges/wallhaven-1.png);
+    background-position: center center;
     
 }
 .banner .mask{
-    background:rgba(0,0,0,.5) ;
+    background:rgba(0,0,0,0.7) ;
+    height: 680px;
+}
+.usercard{
+    border: 1px red solid;
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: ;
+    background-color: #fff;
+}
+.usercard .welcome{
+    background-color: #e66;
+    color: #fff;
+    padding: 4px 16px;
+    line-height: 22px;
+    position: relative;
+    top: 4px;
+}
+.triangle{
+    display: block;
+    border: transparent 10px solid;
+    border-top-width: 0px;
+    border-left-color: #e66;
+    position: absolute;
+    width: 0px;
+    left: 4px;
+    top: 100%;
+}
+.usercard img{
+    height: 330px;
+}
+.usercard .picture{
+    float: left;
+}
+.usercard .text{
+    float: left;
+    margin-left: 65px;
+    width: 470px;
+}
+.usercard .text h1{
+    margin-top: 18px;
+    
+}
+.text hr{
+    margin:18px 0;
+
+}
+.usercard .picturePad{
+    padding: 50px;
 }
