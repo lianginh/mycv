@@ -119,3 +119,39 @@ color: #ccc;
 .usercard .picturePad{
     padding: 50px;
 }
+.usercard dl dt,
+.usercard dl dd{
+    float: left;
+    padding: 7px 0;
+    
+}
+.usercard dl dt{
+    width: 30%;
+    font-weight: bold;
+}
+.usercard dl dd{
+    width: 58%;
+    color: #ccc;
+}
+.usercard .media{
+    background-color: #e66;
+}
+.media>a i{
+    border: #e66 1px solid;
+    padding: 5px 5px;
+}
+.gitH{
+    background-image: url(../icon/GitHub.png);
+}
+.weiX{
+    background-image: url(../icon/weixin.png);
+}
+.qq{
+    background-image: url(../icon/qq.png);
+}
+.twiT{
+    background-image: url(../icon/twitter.png);
+}
+.weiB{
+    background-image: url(../icon/weibo.png);
+}
