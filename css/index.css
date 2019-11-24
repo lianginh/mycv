@@ -58,8 +58,8 @@ color: #e66;
 color: #ccc;
 }
 .banner{
-    width: 1920px;
-    background-image:url(../imges/wallhaven-5.jpg);
+    height: 1080px;
+    background-image:url(../imges/wallhaven-1.png);
     
 }
 .banner .mask{
