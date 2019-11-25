@@ -132,25 +132,24 @@ color: #ccc;
     width: 58%;
     color: #ccc;
 }
+
 .usercard .media{
     background-color: #e66;
+    text-align: center;
 }
-.media>a i{
-    border: #e66 1px solid;
-    padding: 5px 5px;
+.media>a{
+    border-radius: 50%;
+    display: inline-block;
+    width: 40px;
+    line-height: 30px;
+    padding: 5px 0;
+    margin: 16px;
+}.media>a:hover{
+    background-color: #55bbff;
 }
-.gitH{
-    background-image: url(../icon/GitHub.png);
-}
-.weiX{
-    background-image: url(../icon/weixin.png);
-}
-.qq{
-    background-image: url(../icon/qq.png);
-}
-.twiT{
-    background-image: url(../icon/twitter.png);
-}
-.weiB{
-    background-image: url(../icon/weibo.png);
+.media svg{
+    width: 30px ;
+    height: 30px;
+    fill: #fff;
+    vertical-align: top;
 }
