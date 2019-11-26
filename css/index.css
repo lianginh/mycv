@@ -1,16 +1,17 @@
 body{
-    background-color: brown;
     margin: 0;
     padding: 0;
 }
 h1,h2,h3,p{
     margin: 0;
     padding: 0;
+    font-weight: normal;
 }
 .logo{
     float: left;
     color: blue;
     text-decoration: none;
+
 }
 .floatr{
     float: right;
@@ -47,7 +48,7 @@ nav>ul>li{
     width: 100%;
     position: fixed;
     font-size: 24px;
-    font-family: "Arial Black";
+    font-family: "微软雅黑";
     padding: 20px 0px 12px 0px;
 }
 .topnav-inner{
@@ -56,7 +57,7 @@ nav>ul>li{
 }
 .topnav .logo .rs{
 color: #e66;
-
+font-weight: 700;
 }
 .topnav .logo .card{
 color: #ccc;
@@ -72,11 +73,12 @@ color: #ccc;
     height: 680px;
 }
 .usercard{
-    border: 1px red solid;
+
     max-width: 940px;
     margin-left: auto;
     margin-right: auto;
     background-color: #fff;
+    box-shadow: 0px 3px 0px 0px rgba(0,0,0,0.3);
 }
 .usercard .welcome{
     background-color: #e66;
@@ -152,4 +154,86 @@ color: #ccc;
     height: 30px;
     fill: #fff;
     vertical-align: top;
+}
+.msin-m{
+margin-top: -300px;
+}
+.downloadwrapper{
+    text-align: center;
+}
+.downloadwrapper a{
+    display: inline-block;
+    line-height: 15px;
+    padding: 20px 60px;
+    border:1px solid #b7b7b7;
+    margin: 45px 0;
+    text-decoration: none;
+    border-radius: 4px;
+    color: #3d4451;
+}
+.downloadwrapper >a:hover {
+    box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.5);
+}
+.selfM{
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.skills ,.portfolio{
+    max-width: 940px;
+    margin: 60px auto;
+}
+.skills h2,
+.portfolio h2{
+    text-align: center;
+    color: #3d4451;
+    font-size: 34px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+.skills ol{
+    max-width: 940px;
+    border: #ccc 1px solid;
+    box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.5);
+    padding: 42px 50px;
+    margin-top: 30px;
+}
+
+.skills > ol>li{
+float: left;
+list-style: none;
+width: 48%;
+}
+.skills > ol>li:nth-child(even){
+    float:right;
+}
+.skills .skillsBar{
+    height: 6px;
+    background-color: rgb(252, 182, 182);
+    border-radius: 2px;
+    margin: 15px 0;
+}
+ .skillsColor{
+    height: 6px;
+    border-radius: 2px;
+    background-color: #e66;
+}
+.SCa{
+    width: 80%;
+}
+.SCb{
+    width: 82%;
+}
+.SCc{
+    width: 85%;
+}
+.SCd{
+    width: 40%;
+}
+.SCe{
+    width: 90%;
+}
+.SCf{
+    width: 65%;
 }
