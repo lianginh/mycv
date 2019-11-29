@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: rgba(235, 231, 231, 0.979);
 }
 h1,h2,h3,p{
     margin: 0;
@@ -237,3 +238,48 @@ width: 48%;
 .SCf{
     width: 65%;
 }
+.portfolio{
+    text-align: center;
+
+}
+.portfolio nav{
+    display: inline-block;
+    vertical-align: top;
+}
+.portfolio nav ul{
+    margin: 0 auto;
+    display: inline-block;
+    vertical-align: top;
+}
+.portfolio nav ul li{
+    margin-left: 50px;
+    margin-right: 0;
+    cursor: pointer;
+}
+.portfolio nav ul li:first-child{
+    margin-left: 0;
+}
+.portfolio .bar{
+    background-color: #fff;
+    height: 5px;
+    margin-top: 6px;
+    margin-bottom: 100x;
+    border-radius: 2px;
+}
+.portfolio .bar>.inner{
+    background-color: #e66;
+    height: 100%;
+    border-radius: 2px;
+}
+.portfolio  .start .inner{
+    width: 15%;
+}
+.portfolio  .start1 .inner{
+    width: 20%;
+    margin-left: 75px;
+}
+.portfolio  .start2 .inner{
+    width: 35%;
+    margin-left: 158px;
+}
+

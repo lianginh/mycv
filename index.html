@@ -91,34 +91,6 @@
     <section class="skills">
         <h2>技能</h2>
         <ol class="clearfloat">
-           <!-- <li>
-                <div><h3>Html5 &amp; CSS3</h3></div>
-                <div class="skillsBar">
-                    <div class="skillsColor"></div>
-                </div></li>
-
-            <li>
-                <div><h3>Javascript</h3></div>
-            <div class="skillsBar">
-                <div class="skillsColor"></div>
-            </div></li>
-            <li>
-                <div><h3>Vue.js</h3></div>
-                <div class="skillsBar">
-                    <div class="skillsColor"></div>
-                </div></li>
-            <li><div><h3>Photoshop</h3></div>
-                <div class="skillsBar">
-                    <div class="skillsColor"></div>
-                </div></li>        
-            <li><div><h3>jQuery</h3></div>
-            <div class="skillsBar">
-                <div class="skillsColor"></div>
-            </div></li>
-            <li><div><h3>React.js</h3></div>
-                <div class="skillsBar">
-                    <div class="skillsColor"></div>
-                </div></li>-->
                 <li>
                         <h3>Html5 &amp; CSS3</h3>
                         <div class="skillsBar">
@@ -152,12 +124,24 @@
     <section class="portfolio">
         <h2>作品经验</h2>
         <nav>
-            <ul>
-                <li>所有</li>
-                <li>框架</li>
-                <li>原生js&css</li>
+            <ul class=" clearfloat">
+                <li id="portfolio1">所有</li>
+                <li  id="portfolio2">框架</li>
+                <li id="portfolio3">原生js&css</li>
             </ul>
+            <div id ="bart" class="bar start"><div class="inner"></div></div>
         </nav>
+        <script>
+        portfolio1.onclick =function(){
+    bart.className ="bar start"
+};
+portfolio2.onclick =function(){
+    bart.className ="bar start1"
+};
+portfolio3.onclick =function(){
+    bart.className ="bar start2"
+};
+        </script>
         <div>
             <div class="big"></div>
             <div class="big"></div>
